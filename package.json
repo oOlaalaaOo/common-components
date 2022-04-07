@@ -1,5 +1,5 @@
 {
-  "name": "@laalaa/common-components",
+  "name": "@oOlaalaaOo/common-components",
   "version": "1.0.0",
   "private": false,
   "author": {
@@ -12,6 +12,9 @@
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/common-components"
+  },
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
