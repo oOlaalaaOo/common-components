@@ -1,0 +1,37 @@
+@use '../../styles/mixins.scss' as mixins;
+
+.carousel-item-container {
+  min-width: 150px;
+  max-height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: mixins.$shadow-sm;
+  border-radius: 0.4rem;
+  cursor: pointer;
+
+  h4 {
+    @include mixins.txt-xs;
+    font-weight: 400;
+    margin-top: 5px;
+  }
+}
+
+.carousel-item-container:first-child {
+  margin-left: 0;
+}
+
+.carousel-item-container:last-child {
+  margin-right: 0;
+}
+
+.carousel-item-container:hover {
+  box-shadow: mixins.$shadow-md;
+
+  h4 {
+    color: mixins.$error-color;
+  }
+}

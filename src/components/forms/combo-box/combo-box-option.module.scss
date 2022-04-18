@@ -1,0 +1,34 @@
+@use '../../../styles//mixins.scss' as mixins;
+
+.list-item {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0;
+
+  .list-item-label {
+    width: 95%;
+    font-family: mixins.$font-primary;
+    font-size: 0.8rem;
+  }
+
+  .list-item-icon {
+    width: 5%;
+    height: 1.2rem;
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.list-item:hover {
+  background-color: mixins.$dark-color;
+
+  .list-item-label {
+    color: #fff;
+  }
+}

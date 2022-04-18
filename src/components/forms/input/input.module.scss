@@ -1,0 +1,48 @@
+@use '../../../styles/mixins.scss' as mixins;
+
+.input-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid;
+  border-color: mixins.$border-color;
+  border-radius: 0.2rem;
+  padding: 0.25rem 0.5rem;
+
+  span {
+    cursor: pointer;
+    width: 1.2rem;
+    height: 1.2rem;
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .input {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0.2rem;
+    font-family: mixins.$font-primary;
+    font-weight: 500;
+    letter-spacing: 0.02rem;
+  }
+
+  .input:focus {
+    outline: none;
+  }
+
+  .input-sm {
+    padding: 0.35rem 0.2rem;
+    font-size: 0.8rem;
+  }
+
+  .input-lg {
+    padding: 0.6rem 0.3rem;
+    font-size: 1.1rem;
+  }
+}

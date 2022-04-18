@@ -1,0 +1,73 @@
+@use '../../styles/mixins.scss' as mixins;
+
+.button {
+  margin: 0;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  font-family: mixins.$font-primary;
+  box-shadow: mixins.$shadow-sm;
+  font-weight: 500;
+  letter-spacing: 0.07rem;
+}
+
+.button-sm {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.8rem;
+}
+
+.button-md {
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+}
+
+.button-lg {
+  padding: 0.4rem 1.25rem;
+  font-size: 1.1rem;
+}
+
+.button-xl {
+  padding: 0.5rem 1.50rem;
+  font-size: 1.15rem;
+}
+
+.button-default {
+  background-color: mixins.$default-color;
+  color: #000;
+  border: 1px solid;
+  border-color: mixins.$border-color;
+}
+
+.button-primary {
+  background-color: mixins.$primary-color;
+  color: #fff;
+  border: 1px solid;
+  border-color: mixins.$primary-color;
+}
+
+.button-secondary {
+  background-color: mixins.$secondary-color;
+  color: #000;
+  border: 1px solid;
+  border-color: mixins.$secondary-color;
+}
+
+.button-success {
+  background-color: mixins.$success-color;
+  color: #fff;
+  border: 1px solid;
+  border-color: mixins.$success-color;
+}
+
+.button-error {
+  background-color: mixins.$error-color;
+  color: #fff;
+  border: 1px solid;
+  border-color: mixins.$error-color;
+}
+
+.button-dark {
+  background-color: mixins.$dark-color;
+  color: #fff;
+  border: 1px solid;
+  border-color: mixins.$dark-color;
+}

@@ -1,0 +1,93 @@
+@import 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;700&display=swap';
+
+$primary-color: #6a64f1;
+$default-color: #fff;
+$secondary-color: #fad9e6;
+$dark-color: #3a3845;
+$error-color: #ff6b6b;
+$success-color: #9fc088;
+$border-color: #ccc;
+
+$font-primary: 'Plus Jakarta Sans', sans-serif;
+
+$shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+$shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+$shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+@mixin txt-xs {
+  font-size: 0.75rem; /* 12px */
+  line-height: 1rem; /* 16px */
+  font-family: $font-primary;
+}
+
+@mixin txt-sm {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  font-family: $font-primary;
+}
+
+@mixin txt-md {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  font-family: $font-primary;
+}
+
+@mixin txt-lg {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  font-family: $font-primary;
+}
+
+@mixin txt-xl {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  font-family: $font-primary;
+}
+
+@mixin txt-2xl {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+  font-family: $font-primary;
+}
+
+@mixin txt-3xl {
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+  font-family: $font-primary;
+}
+
+@mixin txt-4xl {
+  font-size: 2.25rem; /* 36px */
+  line-height: 2.5rem; /* 40px */
+  font-family: $font-primary;
+}
+
+@mixin txt-5xl {
+  font-size: 3rem; /* 48px */
+  line-height: 1;
+  font-family: $font-primary;
+}
+
+@mixin txt-6xl {
+  font-size: 3.75rem; /* 60px */
+  line-height: 1;
+  font-family: $font-primary;
+}
+
+@mixin txt-7xl {
+  font-size: 4.5rem; /* 72px */
+  line-height: 1;
+  font-family: $font-primary;
+}
+
+@mixin txt-8xl {
+  font-size: 6rem; /* 96px */
+  line-height: 1;
+  font-family: $font-primary;
+}
+
+@mixin txt-9xl {
+  font-size: 8rem; /* 128px */
+  line-height: 1;
+  font-family: $font-primary;
+}

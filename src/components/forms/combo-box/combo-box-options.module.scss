@@ -1,0 +1,14 @@
+@use '../../../styles//mixins.scss' as mixins;
+
+.list-container {
+  position: absolute;
+  max-height: 200px;
+  margin-top: 5px;
+  width: 100%;
+  list-style-type: none;
+  overflow-y: scroll;
+  border-radius: 0.2rem;
+  border: 1px solid;
+  border-color: mixins.$border-color;
+  box-shadow: mixins.$shadow-md;
+}
